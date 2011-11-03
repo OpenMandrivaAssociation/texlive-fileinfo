@@ -1,5 +1,11 @@
+# revision 21259
+# category Package
+# catalog-ctan /macros/latex/contrib/fileinfo
+# catalog-date 2011-02-01 07:24:26 +0100
+# catalog-license lppl1.3
+# catalog-version 0.3(a)
 Name:		texlive-fileinfo
-Version:	0.3a
+Version:	0.3(a)
 Release:	1
 Summary:	Get file information without loading the file
 Group:		Publishing
@@ -54,6 +60,7 @@ readprov and controls what \listfiles will report.
 %doc %{_texmfdistdir}/source/latex/fileinfo/makedoc.cfg
 %doc %{_texmfdistdir}/source/latex/fileinfo/myfilist.tex
 %doc %{_texmfdistdir}/source/latex/fileinfo/readprov.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -64,3 +71,5 @@ readprov and controls what \listfiles will report.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}

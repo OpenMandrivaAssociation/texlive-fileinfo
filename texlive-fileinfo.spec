@@ -6,7 +6,7 @@
 # catalog-version 0.3(a)
 Name:		texlive-fileinfo
 Version:	0.3a
-Release:	1
+Release:	2
 Summary:	Get file information without loading the file
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/fileinfo

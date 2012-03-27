@@ -1,12 +1,12 @@
-# revision 21259
+# revision 25700
 # category Package
 # catalog-ctan /macros/latex/contrib/fileinfo
-# catalog-date 2011-02-01 07:24:26 +0100
+# catalog-date 2012-03-19 09:58:19 +0100
 # catalog-license lppl1.3
-# catalog-version 0.3(a)
+# catalog-version 0.3b
 Name:		texlive-fileinfo
-Version:	0.3a
-Release:	2
+Version:	0.3b
+Release:	1
 Summary:	Get file information without loading the file
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/fileinfo
@@ -40,14 +40,12 @@ readprov and controls what \listfiles will report.
 %doc %{_texmfdistdir}/doc/latex/fileinfo/CONTENTs.txt
 %doc %{_texmfdistdir}/doc/latex/fileinfo/README
 %doc %{_texmfdistdir}/doc/latex/fileinfo/README.pdf
-%doc %{_texmfdistdir}/doc/latex/fileinfo/README.txt
 %doc %{_texmfdistdir}/doc/latex/fileinfo/RELEASE.txt
-%doc %{_texmfdistdir}/doc/latex/fileinfo/gather.tex
 %doc %{_texmfdistdir}/doc/latex/fileinfo/myfilist.pdf
 %doc %{_texmfdistdir}/doc/latex/fileinfo/readprov.pdf
 #- source
 %doc %{_texmfdistdir}/source/latex/fileinfo/README.tex
-%doc %{_texmfdistdir}/source/latex/fileinfo/makedoc.cfg
+%doc %{_texmfdistdir}/source/latex/fileinfo/gather.tex
 %doc %{_texmfdistdir}/source/latex/fileinfo/myfilist.tex
 %doc %{_texmfdistdir}/source/latex/fileinfo/readprov.tex
 

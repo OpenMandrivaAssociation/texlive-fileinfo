@@ -1,13 +1,13 @@
-# revision 25700
+# revision 26696
 # category Package
 # catalog-ctan /macros/latex/contrib/fileinfo
-# catalog-date 2012-03-19 09:58:19 +0100
+# catalog-date 2012-05-28 13:29:39 +0200
 # catalog-license lppl1.3
-# catalog-version 0.3b
+# catalog-version 0.4
 Name:		texlive-fileinfo
-Version:	0.3b
+Version:	0.4
 Release:	1
-Summary:	Get file information without loading the file
+Summary:	Enhanced display of LaTeX File Information
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/fileinfo
 License:	LPPL1.3
@@ -35,6 +35,7 @@ readprov and controls what \listfiles will report.
 
 #-----------------------------------------------------------------------
 %files
+%{_texmfdistdir}/tex/latex/fileinfo/fileinfo.RLS
 %{_texmfdistdir}/tex/latex/fileinfo/myfilist.sty
 %{_texmfdistdir}/tex/latex/fileinfo/readprov.sty
 %doc %{_texmfdistdir}/doc/latex/fileinfo/CONTENTs.txt

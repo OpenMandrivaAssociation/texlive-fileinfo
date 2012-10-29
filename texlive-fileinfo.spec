@@ -1,11 +1,11 @@
-# revision 26696
+# revision 28075
 # category Package
 # catalog-ctan /macros/latex/contrib/fileinfo
-# catalog-date 2012-05-28 13:29:39 +0200
+# catalog-date 2012-10-25 20:05:22 +0200
 # catalog-license lppl1.3
-# catalog-version 0.4
+# catalog-version 0.7
 Name:		texlive-fileinfo
-Version:	0.4
+Version:	0.7
 Release:	1
 Summary:	Enhanced display of LaTeX File Information
 Group:		Publishing

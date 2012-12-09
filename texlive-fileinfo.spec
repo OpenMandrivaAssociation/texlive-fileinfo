@@ -1,11 +1,11 @@
-# revision 28075
+# revision 26696
 # category Package
 # catalog-ctan /macros/latex/contrib/fileinfo
-# catalog-date 2012-10-25 20:05:22 +0200
+# catalog-date 2012-05-28 13:29:39 +0200
 # catalog-license lppl1.3
-# catalog-version 0.7
+# catalog-version 0.4
 Name:		texlive-fileinfo
-Version:	0.7
+Version:	0.4
 Release:	1
 Summary:	Enhanced display of LaTeX File Information
 Group:		Publishing
@@ -59,3 +59,26 @@ readprov and controls what \listfiles will report.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Tue Aug 07 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.4-1
++ Revision: 812259
+- Update to latest release.
+
+* Tue Mar 27 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.3b-1
++ Revision: 787611
+- Update to latest release.
+
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.3a-2
++ Revision: 751842
+- Rebuild to reduce used resources
+
+* Sat Nov 12 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.3a-1
++ Revision: 730213
+- texlive-fileinfo
+- texlive-fileinfo
+- texlive-fileinfo
+- texlive-fileinfo
+- texlive-fileinfo
+

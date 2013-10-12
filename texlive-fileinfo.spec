@@ -1,11 +1,11 @@
-# revision 26696
+# revision 28421
 # category Package
 # catalog-ctan /macros/latex/contrib/fileinfo
-# catalog-date 2012-05-28 13:29:39 +0200
+# catalog-date 2012-12-02 13:05:20 +0100
 # catalog-license lppl1.3
-# catalog-version 0.4
+# catalog-version 0.81a
 Name:		texlive-fileinfo
-Version:	0.4
+Version:	0.81a
 Release:	1
 Summary:	Enhanced display of LaTeX File Information
 Group:		Publishing
@@ -38,14 +38,15 @@ readprov and controls what \listfiles will report.
 %{_texmfdistdir}/tex/latex/fileinfo/fileinfo.RLS
 %{_texmfdistdir}/tex/latex/fileinfo/myfilist.sty
 %{_texmfdistdir}/tex/latex/fileinfo/readprov.sty
-%doc %{_texmfdistdir}/doc/latex/fileinfo/CONTENTs.txt
 %doc %{_texmfdistdir}/doc/latex/fileinfo/README
 %doc %{_texmfdistdir}/doc/latex/fileinfo/README.pdf
-%doc %{_texmfdistdir}/doc/latex/fileinfo/RELEASE.txt
+%doc %{_texmfdistdir}/doc/latex/fileinfo/RELEASEs.txt
+%doc %{_texmfdistdir}/doc/latex/fileinfo/SrcFILEs.txt
 %doc %{_texmfdistdir}/doc/latex/fileinfo/myfilist.pdf
 %doc %{_texmfdistdir}/doc/latex/fileinfo/readprov.pdf
 #- source
 %doc %{_texmfdistdir}/source/latex/fileinfo/README.tex
+%doc %{_texmfdistdir}/source/latex/fileinfo/fdatechk.tex
 %doc %{_texmfdistdir}/source/latex/fileinfo/gather.tex
 %doc %{_texmfdistdir}/source/latex/fileinfo/myfilist.tex
 %doc %{_texmfdistdir}/source/latex/fileinfo/readprov.tex
@@ -59,26 +60,3 @@ readprov and controls what \listfiles will report.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Tue Aug 07 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.4-1
-+ Revision: 812259
-- Update to latest release.
-
-* Tue Mar 27 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.3b-1
-+ Revision: 787611
-- Update to latest release.
-
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.3a-2
-+ Revision: 751842
-- Rebuild to reduce used resources
-
-* Sat Nov 12 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.3a-1
-+ Revision: 730213
-- texlive-fileinfo
-- texlive-fileinfo
-- texlive-fileinfo
-- texlive-fileinfo
-- texlive-fileinfo
-

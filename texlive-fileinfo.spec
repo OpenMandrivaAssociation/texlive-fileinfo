@@ -6,7 +6,7 @@
 # catalog-version 0.81a
 Name:		texlive-fileinfo
 Version:	0.81a
-Release:	9
+Release:	10
 Summary:	Enhanced display of LaTeX File Information
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/fileinfo

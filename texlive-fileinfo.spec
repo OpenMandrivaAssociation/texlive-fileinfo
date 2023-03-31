@@ -1,6 +1,6 @@
 Name:		texlive-fileinfo
 Version:	28421
-Release:	1
+Release:	2
 Summary:	Enhanced display of LaTeX File Information
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/fileinfo

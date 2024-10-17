@@ -3,7 +3,7 @@ Version:	28421
 Release:	2
 Summary:	Enhanced display of LaTeX File Information
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/fileinfo
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/fileinfo
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/fileinfo.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/fileinfo.doc.r%{version}.tar.xz
